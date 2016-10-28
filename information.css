@@ -1,0 +1,28 @@
+body{
+	background: url(ocean-final.jpg) no-repeat center center;
+}
+.title1{
+	border: 2px solid black;
+	font-size: 35px;
+}
+
+#par1{
+	font-size: 25px;
+	float: right;
+}
+
+#par2{
+	font-size: 25px;
+}
+
+.paragraphs{
+	border: 2px solid white;
+}
+
+#pic1{
+	display: inline-block;
+}
+
+#pic2{
+
+}
