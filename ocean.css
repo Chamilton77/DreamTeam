@@ -1,0 +1,12 @@
+html {
+	background: url(ocean-final.jpg) no-repeat center center fixed; 
+                -webkit-background-size: cover;
+                -moz-background-size: cover;
+                -o-background-size: cover;
+                background-size: cover;
+	}
+#turtle {
+	align-items: center
+	width: 900px;
+	max-height: 70%;
+}
