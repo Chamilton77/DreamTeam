@@ -1,5 +1,5 @@
 body{
-	background: url(ocean-final.jpg) no-repeat center center fixed;
+	background: url(cleanwater2.jpg) no-repeat center center fixed;
 	background-size: cover;
 }
 .title1{
@@ -31,3 +31,19 @@ body{
 	margin-right: 50px;
 	margin-top: 35px;
 }
+
+nav {
+		position: fixed;
+		width: 100%;
+		height: 50px;
+		background-color: rgba(0, 0, 0, 0.5);
+		z-index: 99;
+		text-align: right;
+		}
+
+		nav a {
+		text-decoration: none;
+		color: #fff;
+		margin-right: 30px;
+		line-height: 50px;
+		}
