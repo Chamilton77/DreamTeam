@@ -1,5 +1,6 @@
 body{
-	background: url(ocean-final.jpg) no-repeat center center;
+	background: url(ocean-final.jpg) no-repeat center center fixed;
+	background-size: cover;
 }
 .title1{
 	border: 2px solid black;
@@ -8,11 +9,15 @@ body{
 
 #par1{
 	font-size: 25px;
+	display: inline;
 	float: right;
+	width: 650px;
+	margin-right: 50px;
 }
 
 #par2{
 	font-size: 25px;
+	width: 550px;
 }
 
 .paragraphs{
@@ -20,9 +25,11 @@ body{
 }
 
 #pic1{
-	display: inline-block;
+
 }
 
 #pic2{
-
+	float: right;
+	margin-right: 50px;
+	margin-top: 35px;
 }
