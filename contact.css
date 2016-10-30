@@ -28,18 +28,6 @@ h1, h2, h3, h4, h5, h6 , p {
 	line-height: 50px;
 }
 
-#logo {
-	float: left;
-	padding: 20px 20px;
-	font-size: 16px;
-	font-weight: bold;
-	list-style: none;
-}
-
-#logo>li>a:hover {
-	color: #ffffff;
-}
-
 .botnav {
 	display: inline-block;
 	background-color: rgba(0, 0, 0, 1);
@@ -51,6 +39,7 @@ h1, h2, h3, h4, h5, h6 , p {
 }
 .botnav>a {
 	display: inline-block;
+	color: white;
 	padding: 20px 20px 30px 20px;
 	margin: 0px 0px 0px 0px;
 }
@@ -59,10 +48,10 @@ h1, h2, h3, h4, h5, h6 , p {
 	padding-top: 80px;
 	text-align: center;
 }
+
 .info {
 	display: inline-block;
 	list-style: none;
-
 }
 #wrapper {
 	width: 1200px;
@@ -74,6 +63,7 @@ h1, h2, h3, h4, h5, h6 , p {
 	padding-right: 10px;
 	opacity: .7;
 }
+
 #box1 {
 	height: 300px;
 	width: 250px;
@@ -81,6 +71,7 @@ h1, h2, h3, h4, h5, h6 , p {
 	margin-left: 100px;
 	border: 3px solid black;
 }
+
 #box2 {
 	height: 300px;
 	width: 250px;
@@ -89,6 +80,7 @@ h1, h2, h3, h4, h5, h6 , p {
 	border: 3px solid black;
 
 }
+
 #box3 {
 	height: 300px;
 	width: 250px;
@@ -96,18 +88,21 @@ h1, h2, h3, h4, h5, h6 , p {
 	margin-right: 100px;
 	border: 3px solid black;
 }
+
 #info1 {
 	float: left;
 	margin-left: 160px;
 	margin-top: 20px;
 	list-style: none;
 }
+
 #info2 {
 	float: left;
 	margin-left: 250px;
 	margin-top: 20px;
 	list-style: none;
 }
+
 #info3 {
 	float: right;
 	margin-right: 150px;

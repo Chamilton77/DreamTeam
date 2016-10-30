@@ -2,10 +2,19 @@ body{
 	background: url(cleanwater2.jpg) no-repeat center center fixed;
 	background-size: cover;
 }
+* {
+	margin: 0;
+}
+
+#wrapper {
+	padding-top: 50px;
+}
+
 .title1{
-	border: 2px solid white;
 	font-size: 35px;
-	color: white;
+	color: black;
+	margin: 10px;
+	
 }
 
 #par1{
@@ -14,11 +23,18 @@ body{
 	float: right;
 	width: 650px;
 	margin-right: 50px;
+	margin-top: 25px;
+	padding: 7px;
+	opacity: .8;
 }
 
 #par2{
+	margin-left: 10px;
+	margin-bottom: 20px;
 	font-size: 25px;
 	width: 550px;
+	padding: 7px;
+	opacity: .8;
 }
 
 .paragraphs{
@@ -26,24 +42,45 @@ body{
 	background-color: #42adf4;
 }
 
+#pic1 {
+	margin-left: 10px;
+	border: 2px solid white;
+}
 #pic2{
 	float: right;
 	margin-right: 50px;
 	margin-top: 35px;
+	border: 2px solid white;
 }
 
 nav {
-		position: fixed;
-		width: 100%;
-		height: 50px;
-		background-color: rgba(0, 0, 0, 0.5);
-		z-index: 99;
-		text-align: right;
-		}
+	position: fixed;
+	width: 100%;
+	height: 50px;
+	background-color: rgba(0, 0, 0, 0.5);
+	z-index: 99;
+	text-align: right;
+}
 
-		nav a {
-		text-decoration: none;
-		color: #fff;
-		margin-right: 30px;
-		line-height: 50px;
-		}
+nav a {
+	text-decoration: none;
+	color: #fff;
+	margin-right: 30px;
+	line-height: 50px;
+}
+
+.botnav {
+	display: inline-block;
+	background-color: rgba(0, 0, 0, 1);
+	list-style: none;
+	text-align: center;
+	border: 2px solid black;
+	width: 100%;
+	bottom: 0px;
+}
+.botnav>a {
+	display: inline-block;
+	color: white;
+	padding: 20px 20px 30px 20px;
+	margin: 0px 0px 0px 0px;
+}
