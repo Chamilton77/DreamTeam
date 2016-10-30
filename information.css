@@ -69,6 +69,10 @@ nav a {
 	line-height: 50px;
 }
 
+nav a:hover {
+	color: aqua;
+}
+
 #homepage {
 	float: left;
 	margin-left: 130px;
@@ -80,6 +84,10 @@ nav a {
 	color: white;
 	font-size: 20px;
 	font-weight: bold;
+}
+
+#homepage>a:hover {
+	color: aqua;
 }
 
 .botnav {
@@ -96,4 +104,8 @@ nav a {
 	color: white;
 	padding: 20px 20px 30px 20px;
 	margin: 0px 0px 0px 0px;
+}
+
+.botnav>a:hover {
+	color: aqua;
 }

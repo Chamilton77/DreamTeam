@@ -28,6 +28,10 @@ h1, h2, h3, h4, h5, h6 , p {
 	line-height: 50px;
 }
 
+.topnav>a:hover {
+	color: aqua;
+}
+
 #homepage {
 	float: left;
 	margin-left: 130px;
@@ -39,6 +43,10 @@ h1, h2, h3, h4, h5, h6 , p {
 	color: white;
 	font-size: 20px;
 	font-weight: bold;
+}
+
+#homepage>a:hover {
+	color: aqua;
 }
 
 .botnav {
@@ -55,6 +63,10 @@ h1, h2, h3, h4, h5, h6 , p {
 	color: white;
 	padding: 20px 20px 30px 20px;
 	margin: 0px 0px 0px 0px;
+}
+
+.botnav>a:hover {
+	color: aqua;
 }
 
 .contact {
