@@ -69,16 +69,29 @@ nav a {
 	line-height: 50px;
 }
 
+#homepage {
+	float: left;
+	margin-left: 130px;
+	line-height: 50px;
+}
+
+#homepage>a {
+	text-decoration: none;
+	color: white;
+	font-size: 20px;
+	font-weight: bold;
+}
+
 .botnav {
 	display: inline-block;
 	background-color: rgba(0, 0, 0, 1);
-	list-style: none;
 	text-align: center;
 	border: 2px solid black;
 	width: 100%;
 	bottom: 0px;
 }
 .botnav>a {
+	text-decoration: none;
 	display: inline-block;
 	color: white;
 	padding: 20px 20px 30px 20px;

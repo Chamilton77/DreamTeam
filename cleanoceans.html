@@ -33,16 +33,31 @@
 		line-height: 50px;
 		}
 
+		#homepage {
+			float: left;
+			margin-left: 130px;
+			line-height: 50px;
+
+		}
+
+		#homepage>a {
+			text-decoration: none;
+			color: white;
+			font-size: 20px;
+			font-weight: bold;
+			
+		}
+
 		.botnav {
 			display: inline-block;
 			background-color: rgba(0, 0, 0, 1);
-			list-style: none;
 			text-align: center;
 			border: 2px solid black;
 			width: 100%;
 			bottom: 0px;
 		}
 		.botnav>a {
+			text-decoration: none;
 			display: inline-block;
 			color: white;
 			padding: 20px 20px 30px 20px;
@@ -119,10 +134,14 @@
 </head>
 <body>
 	<nav>
-		<a href="#">ABOUT</a>
-		<a href="#">VOLUNTEER</a>
-		<a href="#" style="color: red"><strong>DONATE</strong></a>
-		<a href="#">CONTACT</a>
+		<div id="homepage">
+			<a href="cleanoceans.html"> Homepage </a>
+		</div>
+		<a href="information.html">About</a>
+		<a href="#">Volunteer</a>
+		<a href="#" style="color: red">
+		<strong>DONATE</strong></a>
+		<a href="contact.html">Contact</a>
 	</nav> 
 	<div class="section sectionOne">
 		<div class="slogan"> 
@@ -151,10 +170,11 @@
 	</div>
 
 	<div class="botnav">
-		<a href="#">ABOUT</a>
-		<a href="#">VOLUNTEER</a>
-		<a href="#" style="color: red"><strong>DONATE</strong></a>
-		<a href="#">CONTACT</a>
+		<a href="information.html">About</a>
+		<a href="#">Volunteer</a>
+		<a href="#" style="color: red">
+		<strong>DONATE</strong></a>
+		<a href="contact.html">Contact</a>
 	</div>
 
 </body>
