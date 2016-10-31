@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="ocean.css">
+	<title>Clean Ocean Main Page</title>
+	<style>
+		* {
+			margin: 0;
+		}
+
+		html, body {
+			height: 100%;
+		}
+
+		h1, h2, h3, h4, h5, h6 , p {
+		margin-bottom: 20px;
+		}
+
+		nav {
+		position: fixed;
+		width: 100%;
+		height: 50px;
+		background-color: rgba(0, 0, 0, 0.5);
+		z-index: 99;
+		text-align: right;
+		}
+
+		nav a {
+		text-decoration: none;
+		color: #fff;
+		margin-right: 30px;
+		line-height: 50px;
+		}
+
+		nav a:hover {
+			color: aqua;
+		}
+
+		#homepage {
+			float: left;
+			margin-left: 130px;
+			line-height: 50px;
+		}
+
+		#homepage>a {
+			text-decoration: none;
+			color: white;
+			font-size: 20px;
+			font-weight: bold;
+		}
+
+		#homepage>a:hover {
+			color: aqua;
+		}
+
+		.botnav {
+			display: inline-block;
+			background-color: rgba(0, 0, 0, 1);
+			text-align: center;
+			border: 2px solid black;
+			width: 100%;
+			bottom: 0px;
+		}
+		.botnav>a {
+			text-decoration: none;
+			display: inline-block;
+			color: white;
+			padding: 20px 20px 30px 20px;
+			margin: 0px 0px 0px 0px;
+		}
+
+		.botnav>a:hover {
+			color: aqua;
+		}
+
+		.section {
+			height: 100%;
+			background-size: cover;
+			background-repeat: no-repeat;
+			background-attachment: fixed;
+		}
+
+		.subSection {
+			height: 50%;
+			background: #277989;
+		}
+
+		.sectionOne {
+			background-image: url("cleanwater2.jpg");
+		}
+
+		.sectionTwo {
+			background-image: url("kids-swim-trash.jpg");
+		}
+
+		.sectionThree {
+		background-image: url("turtle.jpg");
+		}
+
+		.slogan {
+		vertical-align: middle;
+		font-family: didot;
+		font-size: 50px;
+		color: white;
+		width: 500px;
+		height: auto;  
+		padding: 55px;
+		}
+
+		#boys {
+		text-align: left;
+		float: left;
+		color: white;
+		font-family: "Arial Black";
+		}
+
+
+		.slogan.p {
+		font-size: 35px;
+		font-color: #fff;
+		}
+
+		.message {
+		float: center;
+		font-family: didot;
+		font-size: 35px;
+		color: white;
+		width: 600px;
+		height: auto;
+		padding: 30px;
+		text-align: center;
+		margin-left: 25%;
+		}
+
+		#animalThreat {
+		font-size: 30px;
+		}
+
+		#turtle {
+		font-size: 34px;
+		}
+	</style>
+</head>
+<body>
+	<nav>
+		<div id="homepage">
+			<a href="cleanoceans.html"> Homepage </a>
+		</div>
+		<a href="information.html">About</a>
+		<a href="#">Volunteer</a>
+		<a href="#" style="color: red">
+		<strong>DONATE</strong></a>
+		<a href="contact.html">Contact</a>
+	</nav> 
+	<div class="section sectionOne">
+		<div class="slogan"> 
+			LET'S MAKE THE OCEAN CLEAN AGAIN<br><p style="color: yellow"><strong>DONATE TODAY</strong></p>
+		</div>
+	</div>
+	<div class="subSection">
+		<div class="message">
+			<p>There are 5.25 trillion pieces of plastic debris in the ocean. Of that mass, 269,000 tons float on the surface, while some four billion plastic microfibers per square kilometer litter the deep sea.</p>
+		</div>
+	</div>
+	<div class="section sectionTwo">
+		<div class="slogan" id="boys">
+			'Garbage kids' pictured floating on makeshift rafts through sea of rubbish as they search for things to sell
+		</div>
+	</div>
+	<div class="subSection">
+		<div class="message" id="animalThreat">
+			<p>Around the world, an estimated one million birds and 100,000 marine mammals and sea turtles die each year when they become trapped in plastic or eat it, perhaps mistaking it for a tasty treat. It is one of biggest threats to all whales and dolphins occurring throughout the world’s oceans.</p>
+		</div>
+	</div>
+	<div class="section sectionThree">
+		<div class="slogan" >
+			<p id="turtle">TURTLE TRAPPED IN PLASTIC BELT DIDN'T GROW</p>
+		</div>
+	</div>
+
+	<div class="botnav">
+		<a href="information.html">About</a>
+		<a href="#">Volunteer</a>
+		<a href="#" style="color: red">
+		<strong>DONATE</strong></a>
+		<a href="contact.html">Contact</a>
+	</div>
+
+</body>
+</html>
